@@ -215,9 +215,11 @@ LICENSE_URL = args.license
 
 def manual_input():
 	global MPD_URL, LICENSE_URL
-	MPD_URL = input("Enter MPD URL: \n> ")
+	#MPD_URL = input("Enter MPD URL: \n> ")
+	MPD_URL = "https://drmcdni.classplusapp.com/streams/64c4d35cb160f32c8422a3fa/7271499f7268e4080980d3b59b25a856.mpd?key=170655115056821-100-0-881705a3c7b5bc32f6d4267df1ceb540"
 	divider()
-	LICENSE_URL = input("Enter License URL: \n> ")
+	#LICENSE_URL = input("Enter License URL: \n> ")
+	LICENSE_URL "https://license64.vdocipher.com/auth/wv/eyJjb250ZW50QXV0aCI6ImV5SmpiMjUwWlc1MFNXUWlPaUkzTWpjeE5EazVaamN5TmpobE5EQTRNRGs0TUdRellqVTVZakkxWVRnMU5pSXNJbVY0Y0dseVpYTWlPaUl4TnpBMk5UVXhNVGd3SWl3aWJHbGpaVzV6WlZKMWJHVnpJam9pZTF3aVkyRnVVR1Z5YzJsemRGd2lPbVpoYkhObExGd2ljbVZ1ZEdGc1JIVnlZWFJwYjI1Y0lqb3hPREF3TUgwaWZRPT0iLCJzaWduYXR1cmUiOiI3ZTU0NjliOGRmMDQ0ZmFjOjIwMjQwMTI5VDE3NTkxMFo6cmZ4R3hvRXl4WGRBa3QwaXpDQXZBRkVfLWktTUFManMtWnpzRVQ4UFBLMD0ifQ=="
 	if PLATFORM == "Windows":
 		pass
 	else:
